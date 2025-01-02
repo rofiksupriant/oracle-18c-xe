@@ -20,8 +20,8 @@ function Install-DB {
 
     Copy-Item -Path "$pwd\*" -Recurse -Destination "C:\docker-services\oracle"
 
-    docker-compose --env-file .env up -d --build
-    docker-compose logs -f
+    docker compose --env-file .env up -d --build
+    docker compose logs -f
 
 }
 
