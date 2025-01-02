@@ -10,7 +10,7 @@
 
 ## Install container
 
-- Clone repository: `git clone https://github.com/cristhianfdx/oracle-18c-xe.git`
+- Clone repository: `git clone https://github.com/rofiksupriant/oracle-18c-xe.git`
 - `cd oracle-18c-xe`
 - Execute:
   - Linux: `./oracle.sh`
