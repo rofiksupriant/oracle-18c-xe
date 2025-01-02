@@ -22,8 +22,8 @@ install () {
 
     sudo cp -r * ~/docker-services/oracle
 
-    docker-compose --env-file .env up -d --build
-    docker-compose logs -f
+    docker compose --env-file .env up -d --build
+    docker compose logs -f
 }
 
 uninstall () {
